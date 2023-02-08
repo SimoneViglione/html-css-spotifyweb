@@ -8,6 +8,27 @@
 
 /* Inizio Debug */
 
+.debug .sidebar {
+    border-style: dashed;
+    border-color: aqua;
+}
+
+.debug footer {
+    border-style: dashed;
+    border-color: blue;
+}
+
+.debug .upgrade {
+    border-style: dashed;
+    border-color: chartreuse;
+}
+
+.debug .content-nav {
+    height: 50px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
 /* Fine Debug *********/
 
 
@@ -24,12 +45,21 @@
     background-color: rgb(20, 25, 34);
 }
 
+.centered {
+    text-align: center;
+}
+
 /* Fine Utility *********/
 
 
 
 
 /* Inizio Codice Principale */
+
+main {
+    height: calc(100vh - 100px);
+    background-color: rgb(20, 25, 34);
+}
 
 aside {
     width: 50px;
@@ -44,6 +74,11 @@ aside {
     height: 50px;
     background-color: rgb(8, 11, 18, 0.5);
     width: calc(100% - 50px);
+}
+
+.content-nav {
+    margin-top: 50px;
+    width: 100%;
 }
 
 footer {
