@@ -2,4 +2,61 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+/* Inizio Debug */
+
+/* Fine Debug *********/
+
+
+
+
+/* Inizio Utility */
+
+.d-flex {
+    display: flex;
+}
+
+
+.main-bg-color {
+    background-color: rgb(20, 25, 34);
+}
+
+/* Fine Utility *********/
+
+
+
+
+/* Inizio Codice Principale */
+
+aside {
+    width: 50px;
+    height: calc(100vh - 100px);
+    background-color: black;
+}
+
+.upgrade {
+    position: fixed;
+    left: 50px;
+    top: 0;
+    height: 50px;
+    background-color: rgb(8, 11, 18, 0.5);
+    width: calc(100% - 50px);
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(40, 40, 40);
+}
+/* Fine Codice Principale *********/
+
+
+
+
+/* Inizio Responsive */
+
+
+
+/* Fine Responsive *********/
