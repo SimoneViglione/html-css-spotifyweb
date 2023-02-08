@@ -1,38 +1,44 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
-
 
 /* Inizio Debug */
-
-.debug .sidebar {
-    border-style: dashed;
-    border-color: aqua;
-}
 
 .debug footer {
     border-style: dashed;
     border-color: blue;
 }
 
+.debug .sidebar {
+    border-style: dashed;
+    border-color: aqua;
+}
+
 .debug .upgrade {
     border-style: dashed;
-    border-color: chartreuse;
+    border-color:chartreuse;
 }
 
 .debug .content-nav {
     height: 50px;
     border-style: dashed;
-    border-color: blueviolet;
+    border-color:blueviolet;
+}
+
+.debug .ls-none {
+    border-style: dashed;
+    border-color: chartreuse;
+}
+
+.debug .cover-container {
+    border-style: dashed;
+    height: 200px;
+    background-color: crimson;
 }
 
 /* Fine Debug *********/
-
-
-
 
 /* Inizio Utility */
 
@@ -40,9 +46,21 @@
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 
-.main-bg-color {
-    background-color: rgb(20, 25, 34);
+.overflow {
+    overflow-y: scroll;
+}
+
+.ls-none {
+    list-style: none;
+}
+
+.right-text {
+    text-align: end;
+    padding-right: 50px;
 }
 
 .centered {
@@ -51,20 +69,20 @@
 
 /* Fine Utility *********/
 
-
-
-
 /* Inizio Codice Principale */
 
 main {
     height: calc(100vh - 100px);
-    background-color: rgb(20, 25, 34);
 }
 
 aside {
     width: 50px;
-    height: calc(100vh - 100px);
-    background-color: black;
+    background-color: black
+}
+
+.content {
+    width: calc(100% - 50px);
+    background-color: rgb(20, 25, 34);
 }
 
 .upgrade {
@@ -76,22 +94,51 @@ aside {
     width: calc(100% - 50px);
 }
 
+.song-cover {
+    width: 50%;
+}
+
+.cover-container {
+    margin: 20px;
+}
+
 .content-nav {
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 80px;
 }
 
 footer {
     height: 100px;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(40, 40, 40)
 }
+
 /* Fine Codice Principale *********/
-
-
 
 
 /* Inizio Responsive */
 
+@media screen and (min-width: 576px) {
+    .sidebar {
+        width: 200px;
+    }
+    .content {
+        width: calc(100% - 200px);
+    }
+    .upgrade {
+        width: calc(100% - 200px);
+        left: 200px;
+    }
+}
 
+@media screen and (min-width: 768px) {
+    .song-cover {
+    width: 25%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .song-cover {
+    width: calc(100% / 6);
+    }
+}
 
 /* Fine Responsive *********/
