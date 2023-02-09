@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Inizio Debug */
@@ -67,6 +68,14 @@
     text-align: center;
 }
 
+.white-text {
+    color: white;
+}
+
+.d-none {
+    display: none;
+}
+
 /* Fine Utility *********/
 
 /* Inizio Codice Principale */
@@ -78,6 +87,17 @@ main {
 aside {
     width: 50px;
     background-color: black
+}
+
+.logo{
+    max-width: 100%;
+    height: 50px;
+    align-items: end;
+    padding-left: 8px;
+    border-color: white;
+}
+.logo img {
+    width: 30px;
 }
 
 .content {
@@ -92,6 +112,15 @@ aside {
     height: 50px;
     background-color: rgb(8, 11, 18, 0.5);
     width: calc(100% - 50px);
+}
+
+.white-button {
+    display: inline-block;
+    border-color: white;
+    border: solid 1px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 12px;
 }
 
 .song-cover {
@@ -126,6 +155,10 @@ footer {
     .upgrade {
         width: calc(100% - 200px);
         left: 200px;
+    }
+    .logo h3 {
+        display: inline-block;
+        padding-left: 5px;
     }
 }
 
