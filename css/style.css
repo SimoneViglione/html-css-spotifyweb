@@ -332,6 +332,10 @@ footer {
 
 /*Footer player*/
 
+.player-alt-container {
+    display: none;
+}
+
 .alt-left {
     padding: 20px 10px;
 }
@@ -345,7 +349,6 @@ footer {
     height: 5px;
     border-radius: 25px;
     background-color: rgb(90, 90, 90);
-    display: block;
     margin-left: 10px;
 }
 .alt-elapsed {
@@ -371,6 +374,10 @@ footer {
     .footer-container {
         display: none;
     }
+    .player-alt-container {
+        display: block;
+    }
+    
 }
 
 @media screen and (min-width: 576px) {
