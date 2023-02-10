@@ -98,7 +98,7 @@
             </nav class="content-nav">
 
             <section class="recently-played">
-                <h2>titolo</h2>
+                <h2 class="for-you-h2">Recently Played</h2>
 
                 <ul class="d-flex wrap ls-none">
                     <li class="song-cover">
@@ -129,7 +129,7 @@
             </section>
                 
             <section class="created">
-                <h2>titolo</h2>
+                <h2 class="for-you-h2">Creato per John Doe</h2>
 
                 <ul class="d-flex wrap ls-none">
                     <li class="song-cover">
@@ -143,7 +143,7 @@
             </section>
 
             <section class="popular">
-                <h2>titolo</h2>
+                <h2 class="for-you-h2">Artisti più popolari</h2>
 
                 <ul class="d-flex wrap ls-none">
                     <li class="song-cover">
@@ -177,28 +177,31 @@
             </section>
 
             <section class="player d-flex f-column">
-                <div>
+                <div class="white-text bigger-font centered">
                     <i class="fa-solid fa-shuffle"></i>
                     <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-play" id="play-button"></i>
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-solid fa-rotate-right"></i>
                 </div>
 
                 <div>
-                    <span>0:25</span>
+                    <span class="white-text smaller-font">0:25</span>
                     <div class="timing-bar">
                         <div class="elapsed-bar"></div>
                     </div>
-                    <span>4:35</span>
+                    <span class="white-text smaller-font">4:35</span>
                 </div>
             </section>
 
             <section class="volume d-flex">
-                <div>
+                <div class="white-text">
                     <i class="fa-solid fa-list"></i>
                     <i class="fa-solid fa-display"></i>
                     <i class="fa-solid fa-volume-high"></i>
+                    <div class="volume-bar">
+                        <div class="actual-volume"></div>
+                    </div>
                 </div>
             </section>
         </div>
