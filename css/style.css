@@ -209,7 +209,7 @@ aside {
 }
 
 .content-nav li {
-    padding: 0 1rem;
+    padding: 1rem;
     font-weight: 500;
 }
 .content-nav li:first-child {
@@ -308,7 +308,7 @@ footer {
 }
 
 .player {
-    width: calc(100% - 300px);
+    width: 60%
 }
 
 
