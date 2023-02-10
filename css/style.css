@@ -7,12 +7,6 @@
 
 /* Inizio Debug */
 
-.debug .content-nav {
-    height: 50px;
-    border-style: dashed;
-    border-color:blueviolet;
-}
-
 .debug .cover-container {
     border-style: dashed;
     height: 200px;
@@ -27,12 +21,20 @@
     display: flex;
 }
 
+.s-between {
+    justify-content: space-between;
+}
+
 .f-column {
     flex-direction: column;
 }
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.j-center {
+    justify-content: center;
 }
 
 .overflow {
@@ -191,6 +193,14 @@ aside {
     font-weight: bold;
 }
 
+.content-nav li {
+    padding: 0 1rem;
+    font-weight: 500;
+}
+.content-nav li:first-child {
+    border-bottom: solid 1px greenyellow;
+}
+
 .song-cover {
     width: 50%;
 }
@@ -210,6 +220,22 @@ footer {
 
  .current-song img {
     width: 50px;
+}
+
+.timing-bar {
+    width: 300px;
+    height: 5px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.elapsed-bar {
+    height: 100%;
+    width: 30%;
+    background-color: grey;
+    border-radius: 25px;
+    
 }
 
 /* Fine Codice Principale *********/

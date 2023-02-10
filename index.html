@@ -86,7 +86,16 @@
                 <div class="white-button white-text">EFFETTUA L'UPGRADE</div>
             </div>
 
-            <nav class="content-nav centered"> IN EVIDENZA</nav class="content-nav">
+            <nav class="content-nav centered"> 
+                <ul class="ls-none d-flex wrap j-center grey-text">
+                    <li>IN EVIDENZA</li>
+                    <li>PODCAST</li>
+                    <li>CLASSIFICHE</li>
+                    <li>GENERI E MOOD</li>
+                    <li>NUOVE USCITE</li>
+                    <li>SCOPRI</li>
+                </ul>
+            </nav class="content-nav">
 
             <section class="recently-played">
                 <h2>titolo</h2>
@@ -150,33 +159,49 @@
     </main>
 
     <footer>
-        <section class="current-song">
-            <div class="d-flex current-song-container">
-                <img src="img/sinister.jpeg" alt="sinister album cover"/>
-                <div class="a-middle">
-                    <h5 class="white-text">Sinister</h5>
-                    <span class="grey-text">Brano nome</span>
+        <div class="d-flex s-between">
+            <section class="current-song">
+                <div class="d-flex current-song-container">
+                    <img src="img/sinister.jpeg" alt="sinister album cover"/>
+                    <div class="a-middle">
+                        <h5 class="white-text">Sinister</h5>
+                        <span class="grey-text">Brano nome</span>
+                    </div>
+
+                    <div class="grey-text player-icons">
+                        <i class="fa-solid fa-heart grey-text"></i>
+                        <i class="fa-solid fa-folder"></i>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="player d-flex f-column">
+                <div>
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
                 </div>
 
-                <div class="grey-text player-icons">
-                    <i class="fa-solid fa-heart grey-text"></i>
-                    <i class="fa-solid fa-folder"></i>
+                <div>
+                    <span>0:25</span>
+                    <div class="timing-bar">
+                        <div class="elapsed-bar"></div>
+                    </div>
+                    <span>4:35</span>
                 </div>
-                
-            </div>
-        </section>
+            </section>
 
-        <section class="player">
-            <div>
-                
-            </div>
-        </section>
-
-        <section class="volume">
-            <div>
-                
-            </div>
-        </section>
+            <section class="volume d-flex">
+                <div>
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-display"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                </div>
+            </section>
+        </div>
     </footer>
 </body>
 </html>
