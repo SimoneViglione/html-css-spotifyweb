@@ -311,6 +311,15 @@ footer {
     width: 60%
 }
 
+.created p {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.popular p {
+    margin-left: 20px;
+    padding-top: 5px;
+}
 
 /* Fine Codice Principale *********/
 
