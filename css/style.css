@@ -230,7 +230,8 @@ aside {
 
 footer {
     height: 100px;
-    background-color: rgb(40, 40, 40)
+    background-color: rgb(40, 40, 40);
+    width: 100%;
 }
 
  .current-song img {
@@ -246,7 +247,7 @@ footer {
 }
 
 .timing-bar {
-    width: 300px;
+    width: 200px;
     height: 5px;
     background-color: rgb(90, 90, 90);
     border-radius: 25px;
@@ -271,6 +272,10 @@ footer {
 }
 .current-song-container i {
     padding: 5px;
+}
+
+.current-song {
+    width: 150px;
 }
 
 .volume {
@@ -302,6 +307,9 @@ footer {
     padding-bottom: 1rem;
 }
 
+.player {
+    width: calc(100% - 300px);
+}
 
 
 /* Fine Codice Principale *********/
@@ -341,6 +349,12 @@ footer {
     .sidebar-bottom span {
         display: inline;
         margin-bottom: 1rem;
+    }
+    .current-song {
+        width: 280px;
+    }
+    .timing-bar {
+        width: 280px;
     }
 }
 
